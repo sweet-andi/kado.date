@@ -1,0 +1,25 @@
+{
+   "name": "kado/kado.date",
+   "type": "library",
+   "description": "PHP date library.",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "Sweet Andi"
+      }
+   ],
+   "require": {
+      "php": ">=8.3",
+      "kado/kado.translation": "^1.0",
+      "ext-calendar": "*"
+   },
+   "require-dev": {
+      "phpunit/phpunit": "13.1.0",
+      "mockery/mockery": "1.6.12"
+   },
+   "autoload": {
+      "psr-4": {
+         "Kado\\Date\\": "src/"
+      }
+   }
+}
